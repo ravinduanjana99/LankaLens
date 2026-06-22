@@ -71,18 +71,20 @@ API Access: A valid Google Gemini API Key.
 **2. Backend Configuration (FastAPI)**
 Navigate to the backend directory:
 
-```bash
-
 *Bash*
+```bash
 cd backend
 Activate your pre-configured local virtual environment:
+```
 
 *Bash*
+```bash
 Windows (Command Prompt / PowerShell):
 venv\Scripts\activate
 macOS/Linux:
 source venv/bin/activate
 Ensure dependencies are fully satisfied:
+```
 
 *Bash*
 pip install fastapi uvicorn google-genai pydantic gTTS
@@ -99,8 +101,6 @@ export GEMINI_API_KEY="your_actual_api_key_here"
 python main.py
 The backend will start processing actively at http://localhost:8000.
 
-```
-```bash
 
 **3. Frontend Configuration (React Native)**
 Navigate to the frontend directory:
@@ -116,6 +116,5 @@ Initialize the development bundler link and execute native platform compilation:
 *Bash*
 npm run android
 
-```
 
 
