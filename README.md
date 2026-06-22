@@ -50,7 +50,7 @@ LANKALENS/
 │   ├── App.tsx               # Main mobile core entrypoint & stack navigator
 │   ├── package.json          # Node script & dependency registry
 │   └── tsconfig.json         # TypeScript compiler configurations
-├── LankaLens+.mp4            # Application gameplay demo presentation media
+├── LankaLens+.mp4            # Application app demo presentation media
 └── README.md                 # Project configuration manual
 
 ---
@@ -69,45 +69,53 @@ API Access: A valid Google Gemini API Key.
 **2. Backend Configuration (FastAPI)**
 Navigate to the backend directory:
 
-Bash
+```bash
+*Bash*
 cd backend
 Activate your pre-configured local virtual environment:
 
-Bash
+```bash
+*Bash*
 Windows (Command Prompt / PowerShell):
 venv\Scripts\activate
 macOS/Linux:
 source venv/bin/activate
 Ensure dependencies are fully satisfied:
 
-Bash
+```bash
+*Bash*
 pip install fastapi uvicorn google-genai pydantic gTTS
 Inject your secret Gemini Key into your local terminal process window:
 
-Bash
+```bash
+*Bash*
 Windows (PowerShell):
 $env:GEMINI_API_KEY="your_actual_api_key_here"(run this on terminal before running your python file.)
-
 macOS/Linux:
 export GEMINI_API_KEY="your_actual_api_key_here"
-Launch the local development pipeline server instance:
 
-Bash
+***Launch the local development pipeline server instance:***
+
+```bash
+*Bash*
 python main.py
 The backend will start processing actively at http://localhost:8000.
 
 **3. Frontend Configuration (React Native)**
 Navigate to the frontend directory:
 
-Bash
+```bash
+*Bash*
 cd ../frontend
 Compile node modules packages if workspace assets require reset updates:
 
-Bash
+```bash
+*Bash*
 npm install
 Initialize the development bundler link and execute native platform compilation:
 
-Bash
+```bash
+*Bash*
 npm run android
 
 
