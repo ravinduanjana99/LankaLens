@@ -24,6 +24,7 @@ The system leverages Google's **Gemini 2.5 Flash** model for multimodal historic
 
 ## 📂 Repository Structure
 
+```text
 LANKALENS/
 ├── .github/                  # GitHub Actions CI/CD workflows context
 ├── backend/                  # FastAPI Web Pipeline Engine
@@ -53,6 +54,7 @@ LANKALENS/
 ├── LankaLens+.mp4            # Application app demo presentation media
 └── README.md                 # Project configuration manual
 
+```
 ---
 
 ## 🛠️ Local Setup & Installation
@@ -66,10 +68,10 @@ Mobile Environment: Android Studio Emulator / physical test unit configured.
 
 API Access: A valid Google Gemini API Key.
 
-```bash
-
 **2. Backend Configuration (FastAPI)**
 Navigate to the backend directory:
+
+```bash
 
 *Bash*
 cd backend
@@ -97,6 +99,9 @@ export GEMINI_API_KEY="your_actual_api_key_here"
 python main.py
 The backend will start processing actively at http://localhost:8000.
 
+```
+```bash
+
 **3. Frontend Configuration (React Native)**
 Navigate to the frontend directory:
 
@@ -111,6 +116,6 @@ Initialize the development bundler link and execute native platform compilation:
 *Bash*
 npm run android
 
-
+```
 
 
