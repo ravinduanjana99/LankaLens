@@ -69,11 +69,9 @@ API Access: A valid Google Gemini API Key.
 **2. Backend Configuration (FastAPI)**
 Navigate to the backend directory:
 
-```bash
 *Bash*
 cd backend
 Activate your pre-configured local virtual environment:
-
 
 *Bash*
 Windows (Command Prompt / PowerShell):
@@ -94,24 +92,20 @@ export GEMINI_API_KEY="your_actual_api_key_here"
 
 ***Launch the local development pipeline server instance:***
 
-*Bash*
 python main.py
 The backend will start processing actively at http://localhost:8000.
 
 **3. Frontend Configuration (React Native)**
 Navigate to the frontend directory:
 
-```bash
 *Bash*
 cd ../frontend
 Compile node modules packages if workspace assets require reset updates:
 
-```bash
 *Bash*
 npm install
 Initialize the development bundler link and execute native platform compilation:
 
-```bash
 *Bash*
 npm run android
 
