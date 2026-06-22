@@ -66,6 +66,8 @@ Mobile Environment: Android Studio Emulator / physical test unit configured.
 
 API Access: A valid Google Gemini API Key.
 
+--bash
+
 **2. Backend Configuration (FastAPI)**
 Navigate to the backend directory:
 
