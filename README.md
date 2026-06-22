@@ -87,34 +87,46 @@ Ensure dependencies are fully satisfied:
 ```
 
 *Bash*
+```bash
 pip install fastapi uvicorn google-genai pydantic gTTS
 Inject your secret Gemini Key into your local terminal process window:
+```
 
 *Bash*
+```bash
 Windows (PowerShell):
 $env:GEMINI_API_KEY="your_actual_api_key_here"(run this on terminal before running your python file.)
 macOS/Linux:
 export GEMINI_API_KEY="your_actual_api_key_here"
+```
 
+```bash
 ***Launch the local development pipeline server instance:***
 
 python main.py
 The backend will start processing actively at http://localhost:8000.
+```
 
 
 **3. Frontend Configuration (React Native)**
 Navigate to the frontend directory:
 
 *Bash*
+```bash
 cd ../frontend
 Compile node modules packages if workspace assets require reset updates:
+```
 
 *Bash*
+```bash
 npm install
 Initialize the development bundler link and execute native platform compilation:
+```
 
 *Bash*
+```bash
 npm run android
+```
 
 
 
