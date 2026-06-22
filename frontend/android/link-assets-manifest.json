@@ -1,0 +1,73 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assests/fonts/OFL.txt",
+      "sha1": "acad091bc4116270f41b6ab5bc3c6ecb3e08e7cb"
+    },
+    {
+      "path": "src/assests/fonts/Playfair_Display.zip",
+      "sha1": "94f9131e4401e983a6a7724f41f6a27cf7ca5aa5"
+    },
+    {
+      "path": "src/assests/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf",
+      "sha1": "5768f0e9bf3ca7c9e4aa871497ab465243d5676e"
+    },
+    {
+      "path": "src/assests/fonts/PlayfairDisplay-VariableFont_wght.ttf",
+      "sha1": "e24b800575cb38de6687eeb2cb33672fa5f6acee"
+    },
+    {
+      "path": "src/assests/fonts/README.txt",
+      "sha1": "e1d53f1402796eb792508d63c16a8b2585732323"
+    },
+    {
+      "path": "src/assests/fonts/static/PlayfairDisplay-Black.ttf",
+      "sha1": "ac1ab1b54b6edc5e52dbffc5cb06554b742ad080"
+    },
+    {
+      "path": "src/assests/fonts/static/PlayfairDisplay-BlackItalic.ttf",
+      "sha1": "1a9b420221cc0883bb8052ac0515047aad46969f"
+    },
+    {
+      "path": "src/assests/fonts/static/PlayfairDisplay-Bold.ttf",
+      "sha1": "57360f49f076d7bdd7a9e1e93abf3bed7d56d726"
+    },
+    {
+      "path": "src/assests/fonts/static/PlayfairDisplay-BoldItalic.ttf",
+      "sha1": "5e5a5d9a16f0c8a5ffd6afbc5ffa5b5af51916b1"
+    },
+    {
+      "path": "src/assests/fonts/static/PlayfairDisplay-ExtraBold.ttf",
+      "sha1": "1e31527131b2ff9019ccba56ac57e84c2612393a"
+    },
+    {
+      "path": "src/assests/fonts/static/PlayfairDisplay-ExtraBoldItalic.ttf",
+      "sha1": "d230fbcd92f90944c543a9e39dbc8bd49ed89d2d"
+    },
+    {
+      "path": "src/assests/fonts/static/PlayfairDisplay-Italic.ttf",
+      "sha1": "dffe6fa2688bf379ec6a33a9507e70af6fc2b39c"
+    },
+    {
+      "path": "src/assests/fonts/static/PlayfairDisplay-Medium.ttf",
+      "sha1": "de85ce98fad06daf64f86d670e13fa3ecef5b515"
+    },
+    {
+      "path": "src/assests/fonts/static/PlayfairDisplay-MediumItalic.ttf",
+      "sha1": "96456a5921dbec77ee23ed839c9f449abb43948c"
+    },
+    {
+      "path": "src/assests/fonts/static/PlayfairDisplay-Regular.ttf",
+      "sha1": "3e12c2cf422de852cd0af0227179901b155abf14"
+    },
+    {
+      "path": "src/assests/fonts/static/PlayfairDisplay-SemiBold.ttf",
+      "sha1": "7fa24e8796734ec17d72f1e97cfb5d427508e337"
+    },
+    {
+      "path": "src/assests/fonts/static/PlayfairDisplay-SemiBoldItalic.ttf",
+      "sha1": "f31580d7e567c50400544996e014dfeca9aaa9c7"
+    }
+  ]
+}
