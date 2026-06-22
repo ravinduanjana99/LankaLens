@@ -74,7 +74,7 @@ Navigate to the backend directory:
 cd backend
 Activate your pre-configured local virtual environment:
 
-```bash
+
 *Bash*
 Windows (Command Prompt / PowerShell):
 venv\Scripts\activate
@@ -82,12 +82,10 @@ macOS/Linux:
 source venv/bin/activate
 Ensure dependencies are fully satisfied:
 
-```bash
 *Bash*
 pip install fastapi uvicorn google-genai pydantic gTTS
 Inject your secret Gemini Key into your local terminal process window:
 
-```bash
 *Bash*
 Windows (PowerShell):
 $env:GEMINI_API_KEY="your_actual_api_key_here"(run this on terminal before running your python file.)
@@ -96,7 +94,6 @@ export GEMINI_API_KEY="your_actual_api_key_here"
 
 ***Launch the local development pipeline server instance:***
 
-```bash
 *Bash*
 python main.py
 The backend will start processing actively at http://localhost:8000.
